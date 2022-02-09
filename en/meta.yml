@@ -1,0 +1,9 @@
+title: Wiring a potentiometer
+hero_image: images/banner.png
+description: How to wire a potentiometer to a Raspberry Pi Pico
+version: 4
+listed: false
+copyedit: false
+last_tested: "2022-02-09"
+steps:
+  - title: Wiring a potentiometer
