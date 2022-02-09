@@ -4,12 +4,12 @@ You will need:
 + A potentiometer
 + 3 x socket-socket jumper wires
 
-A potentiometer has three pins:
+A **potentiometer** has three pins:
 - Ground
 - Analogue signal
 - 3V3 (power)
 
-When the potentiometer is turned all the way to the left the arrow points to the GND pin, when it is turned all the way to the right, the arrow points to the 3V3 pin. The middle pin is the pin that the Raspberry Pi Pico reads a value from.
+When the potentiometer is turned all the way to the **left** the arrow points to the **GND** pin, when it is turned all the way to the **right**, the arrow points to the **3V3** pin. The middle pin is the pin that the Raspberry Pi Pico reads a value from.
 
 ![An illustration of a potentiometer.](images/potentiometer-illustration.png){:width="400px"}
 
@@ -17,8 +17,8 @@ When the potentiometer is turned all the way to the left the arrow points to the
 
 Connect the other end of each jumper to the Raspberry Pi Pico:
 
-+ Connect the labelled with a small 1 to the GND pin between GP 21 and GP 22.
-+ Connect the middle pin the GP26_A0.
-+ Connect pin labelled with a small 3 to the 3V3 pin.
++ Connect the labelled with a small 1 to the **GND** pin between **GP21** and **GP22**.
++ Connect the middle pin the **GP26_A0**. This is an analogue pin.
++ Connect pin labelled with a small 3 to the **3V3** pin.
 
 ![A potentiometer wired to a Raspberry Pi Pico.](images/pot-diagram.png)
