@@ -11,7 +11,7 @@ A potentiometer has three pins:
 
 When the potentiometer is turned all the way to the left the arrow points to the GND pin, when it is turned all the way to the right, the arrow points to the 3V3 pin. The middle pin is the pin that the Raspberry Pi Pico reads a value from.
 
-![An illustration of a potentiometer.](images/potentiometer-illustration.png)
+![An illustration of a potentiometer.](images/potentiometer-illustration.png){:width="400px"}
 
 **Connect:** Find three socket-socket jumper wires and attach one to each leg of the potentiometer. You may wish to secure the legs with some electrical tape if they feel loose.
 
