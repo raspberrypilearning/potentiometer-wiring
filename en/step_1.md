@@ -1,59 +1,24 @@
-## Introduction
+You will need:
 
-Add project description here. What will learners be making? Broadly what skills will they be learning?
++ A Raspberry Pi Pico
++ A potentiometer
++ 3 x socket-socket jumper wires
 
-### What you will make
+A potentiometer has three pins:
+- Ground
+- Analogue signal
+- 3V3 (power)
 
---- no-print ---
-Add instructions for interacting with the embedded content here.
+When the potentiometer is turned all the way to the left the arrow points to the GND pin, when it is turned all the way to the right, the arrow points to the 3V3 pin. The middle pin is the pin that the Raspberry Pi Pico reads a value from.
 
-<div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/160619869/?autostart=false" frameborder="0"></iframe>
-</div>
---- /no-print ---
+![An illustration of a potentiometer.](images/potentiometer-illustration.png)
 
---- print-only ---
-![Complete project](images/showcase_static.png)
---- /print-only ---
+**Connect:** Find three socket-socket jumper wires and attach one to each leg of the potentiometer. You may wish to secure the legs with some electrical tape if they feel loose.
 
---- collapse ---
----
-title: What you will need
----
-### Hardware
+Connect the other end of each jumper to the Raspberry Pi Pico:
 
-+ A computer or tablet capable of running Scratch 3
++ Connect the labelled with a small 1 to the GND pin between GP 21 and GP 22.
++ Connect the middle pin the GP26_A0.
++ Connect pin labelled with a small 3 to the 3V3 pin.
 
-### Software
-
-+ Scratch 3 (either [online](https://scratch.mit.edu/){:target="_blank"} or [offline](https://scratch.mit.edu/download){:target="_blank"})
-+ Python 3
-+ This project can be completed in a web browser using [trinket.io](https://trinket.io/)
-
-### Downloads
-
-+ Download the project [starter file](http://rpf.io/p/en/projectName-go){:target="_blank"} if working offline
-
---- /collapse ---
-
---- collapse ---
----
-title: What you will learn
----
-
-+ Learning objective 1
-+ Learning objective 2
-+ Learning objective 3
-
---- /collapse ---
-
---- collapse ---
----
-title: Additional information for educators
----
-
-You can download the completed project [here](http://rpf.io/p/en/projectName-get){:target="_blank"}.
-
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/projectName/print){:target="_blank"}.
-
---- /collapse ---
+![A potentiometer wired to a Raspberry Pi Pico.](images/pot-diagram.png)
