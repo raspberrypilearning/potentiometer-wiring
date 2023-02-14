@@ -1,24 +1,24 @@
-You will need:
+Tu auras besoin de :
 
-+ A Raspberry Pi Pico
-+ A potentiometer
-+ 3 x socket-socket jumper wires
++ Un Raspberry Pi Pico
++ Un potentiomètre
++ 3 x fils de liaison femelle-femelle
 
-A **potentiometer** has three pins:
-- Ground
-- Analogue signal
-- 3V3 (power)
+Un **potentiomètre** a trois broches :
+- Masse
+- Signal analogique
+- 3V3 (alimentation)
 
-When the potentiometer is turned all the way to the **left** the arrow points to the **GND** pin, when it is turned all the way to the **right**, the arrow points to the **3V3** pin. The middle pin is the pin that the Raspberry Pi Pico reads a value from.
+Lorsque le potentiomètre est tourné à fond vers la **gauche** , la flèche pointe vers la broche **GND** , lorsqu'il est complètement tourné vers la **droite**, la flèche pointe vers la broche **3V3**. La broche du milieu est la broche à partir de laquelle le Raspberry Pi Pico lit une valeur.
 
-![An illustration of a potentiometer.](images/potentiometer-illustration.png){:width="400px"}
+![Une illustration d'un potentiomètre.](images/potentiometer-illustration.png){:width="400px"}
 
-**Connect:** Find three socket-socket jumper wires and attach one to each leg of the potentiometer. You may wish to secure the legs with some electrical tape if they feel loose.
+**Branchement :** Trouve trois fils de raccordement femelle-femelle et attaches-en un à chaque broche du potentiomètre. Tu voudras peut-être fixer les broches avec du ruban électrique si elles te semblent lâches.
 
-Connect the other end of each jumper to the Raspberry Pi Pico:
+Branche l'autre extrémité de chaque fils de raccordement au Raspberry Pi Pico :
 
-+ Connect the labelled with a small 1 to the **GND** pin between **GP21** and **GP22**.
-+ Connect the middle pin the **GP26_A0**. This is an analogue pin.
-+ Connect pin labelled with a small 3 to the **3V3** pin.
++ Branche la broche marquée d'un petit 1 à la broche **GND** entre **GP21** et **GP22**.
++ Branche la broche du milieu au **GP26_A0**. C'est une broche analogique.
++ Branche la broche marquée d'un petit 3 à la broche **3V3**.
 
-![A potentiometer wired to a Raspberry Pi Pico.](images/pot-diagram.png)
+![Un potentiomètre relié à un Raspberry Pi Pico.](images/pot-diagram.png)
