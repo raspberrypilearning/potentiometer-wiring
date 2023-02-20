@@ -1,10 +1,10 @@
-title: Wire a potentiometer
+title: Sluit een potentiometer (instelwiel) aan
 hero_image: images/banner.png
-description: How to wire a potentiometer to a Raspberry Pi Pico
+description: Hoe kan je een instelwiel aansluiten op een Raspberry Pi Pico
 version: 4
 listed: false
 copyedit: false
 last_tested: "2022-02-09"
 steps:
   - 
-    title: Wire a potentiometer
+    title: Sluit een potentiometer (instelwiel) aan
