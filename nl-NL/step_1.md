@@ -22,3 +22,14 @@ Sluit het andere uiteinde van elke verbindingsdraad aan op de Raspberry Pi Pico:
 + Verbind de pin gemarkeerd met een kleine '3' met de **3V3** pin.
 
 ![Een potentiometer aangesloten op een Raspberry Pi Pico.](images/pot-diagram.png)
+
+***
+Dit project werd vertaald door vrijwilligers:
+
+[name]
+
+[name]
+
+[name]
+
+Dankzij vrijwilligers kunnen we mensen over de hele wereld de kans geven om in hun eigen taal te leren. Jij kunt ons helpen meer mensen te bereiken door vrijwillig te starten met vertalen - meer informatie op [rpf.io/translate](https://rpf.io/translate).
