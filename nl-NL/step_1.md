@@ -1,24 +1,24 @@
-You will need:
+Je hebt nodig:
 
-+ A Raspberry Pi Pico
-+ A potentiometer
-+ 3 x socket-socket jumper wires
++ Een Raspberry Pi Pico
++ Een potentiometer
++ 3 x bus-bus verbindingsdraden
 
-A **potentiometer** has three pins:
-- Ground
-- Analogue signal
-- 3V3 (power)
+Een **potentiometer** heeft drie pinnen:
+- Aarde
+- Analoog signaal
+- 3V3 (vermogen)
 
-When the potentiometer is turned all the way to the **left** the arrow points to the **GND** pin, when it is turned all the way to the **right**, the arrow points to the **3V3** pin. The middle pin is the pin that the Raspberry Pi Pico reads a value from.
+Als de potentiometer helemaal naar **links** is gedraaid, wijst de pijl naar de **GND** -pin, als hij helemaal naar **rechts**is gedraaid, wijst de pijl naar de **3V3** -pin. De middelste pin is de pin waaruit de Raspberry Pi Pico een waarde leest.
 
-![An illustration of a potentiometer.](images/potentiometer-illustration.png){:width="400px"}
+![Een illustratie van een potentiometer.](images/potentiometer-illustration.png){:width="400px"}
 
-**Connect:** Find three socket-socket jumper wires and attach one to each leg of the potentiometer. You may wish to secure the legs with some electrical tape if they feel loose.
+**Aansluiten:** Zoek drie bus-bus verbindingsdraden en bevestig er één aan elk been van de potentiometer. Je kunt de benen met wat isolatietape vastzetten als ze los voelen.
 
-Connect the other end of each jumper to the Raspberry Pi Pico:
+Sluit het andere uiteinde van elke verbindingsdraad aan op de Raspberry Pi Pico:
 
-+ Connect the labelled with a small 1 to the **GND** pin between **GP21** and **GP22**.
-+ Connect the middle pin the **GP26_A0**. This is an analogue pin.
-+ Connect pin labelled with a small 3 to the **3V3** pin.
++ Sluit de draad die gemarkeerd is met een kleine 1 aan op de **GND** pin tussen **GP21** en **GP22**.
++ Verbind de middelste pin met de **GP26_A0** pin. Dit is een analoge pin.
++ Verbind de pin gemarkeerd met een kleine '3' met de **3V3** pin.
 
-![A potentiometer wired to a Raspberry Pi Pico.](images/pot-diagram.png)
+![Een potentiometer aangesloten op een Raspberry Pi Pico.](images/pot-diagram.png)
