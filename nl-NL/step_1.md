@@ -9,7 +9,7 @@ Een **potentiometer** heeft drie pinnen:
 - Analoog signaal
 - 3V3 (vermogen)
 
-Als de potentiometer helemaal naar **links** is gedraaid, wijst de pijl naar de **GND** -pin, als hij helemaal naar **rechts**is gedraaid, wijst de pijl naar de **3V3** -pin. De middelste pin is de pin waaruit de Raspberry Pi Pico een waarde leest.
+Als de potentiometer helemaal naar **links** is gedraaid, wijst de pijl naar de **GND**-pin, als hij helemaal naar **rechts** is gedraaid, wijst de pijl naar de **3V3**-pin. De middelste pin is de pin waaruit de Raspberry Pi Pico een waarde leest.
 
 ![Een illustratie van een potentiometer.](images/potentiometer-illustration.png){:width="400px"}
 
