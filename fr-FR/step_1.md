@@ -2,7 +2,7 @@ Tu auras besoin de :
 
 + Un Raspberry Pi Pico
 + Un potentiomètre
-+ 3 x fils de liaison femelle-femelle
++ 3 x fils de liaison prise-prise
 
 Un **potentiomètre** a trois broches :
 - Masse
@@ -13,9 +13,9 @@ Lorsque le potentiomètre est tourné à fond vers la **gauche**, la flèche poi
 
 ![Une illustration d'un potentiomètre.](images/potentiometer-illustration.png){:width="400px"}
 
-**Branchement :** Trouve trois fils de raccordement femelle-femelle et attaches-en un à chaque broche du potentiomètre. Tu voudras peut-être fixer les broches avec du ruban électrique si elles te semblent lâches.
+**Branchement :** Trouve trois fils de liaison pris-prise et attaches-en un à chaque broche du potentiomètre. Tu voudras peut-être fixer les broches avec du ruban électrique si elles te semblent lâches.
 
-Branche l'autre extrémité de chaque fils de raccordement au Raspberry Pi Pico :
+Branche l'autre extrémité de chaque fils de liaison au Raspberry Pi Pico :
 
 + Branche la broche marquée d'un petit 1 à la broche **GND** entre **GP21** et **GP22**.
 + Branche la broche du milieu au **GP26_A0**. C'est une broche analogique.
